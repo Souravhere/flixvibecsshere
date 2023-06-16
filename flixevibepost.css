@@ -1,0 +1,135 @@
+ .trailer-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .review-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    
+    .review-box {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      width: calc(50% - 20px);
+      box-sizing: border-box;
+    }
+    
+    .cast-section {
+      overflow-x: auto;
+      white-space: nowrap;
+      margin-bottom: 30px;
+    }
+    
+    .cast-card {
+      display: inline-block;
+      margin-right: 10px;
+      width: 150px;
+      text-align: center;
+    }
+    
+    .cast-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 10px;
+    }
+    
+    .public-review-section {
+      margin-bottom: 30px;
+    }
+    
+    .twitter-review-box {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .twitter-review {
+      margin: 10px 0;
+    }
+    
+    /* Media Queries for responsive design */
+    @media (max-width: 768px) {
+      .review-box {
+        width: 100%;
+      }
+    }
+    .key-points-box {
+      background-color: #f5f5f5;
+      width: auto;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .sensitive-content {
+      color: red;
+      font-weight: bold;
+    }
+     .movie-info-box {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .ad-container {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    
+    .watch-now-button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    
+    
+    .quality-options {
+      margin-top: 20px;
+    }
+    
+    .quality-button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .emoji {
+            font-size: 20px;
+            margin-right: 5px;
+        }
